@@ -23,13 +23,12 @@ If not installed, please download and install it from the below link before star
 5. Now press "OK" close all the dialog boxes.
 
 ### _4. [!IMPORTANT] Set up the JDBC connection JAR file. Follow the steps given below:_
-1. Find the "ojdbc14.jar" file in the "./Setup" folder and copy it.
-2. Paste it in the foder where oracle is installed. For eg. "C:\oraclexe\".
-3. Go to Start menu and search for "Edit the System Environment Variables" and run it with administrator privileges.
-4. Click on the "Environment variables..." button on the bottom right of the open dialog.
-5. Click on the "New" button in the "System Variables" section in the bottom half of the second dialog screen.
-6. Enter the "Variable Name" as "CLASSPATH" and the "Variable Vaule" as the path to the ojdbc14.jar file. For eg. "C:\oraclexe\ojdbc14.jar".
-7. Now press "OK" close all the dialog boxes.
+1. Go to Start menu and search for "Edit the System Environment Variables" and run it with administrator privileges.
+2. Click on the "Environment variables..." button on the bottom right of the open dialog.
+3. Click on the "New" button in the "System Variables" section in the bottom half of the second dialog screen.
+4. Enter the "Variable Name" as "CLASSPATH" and the "Variable Vaule" as the path to the "ojdbc14.jar" file in the "Setup" folder. For eg. "C:\Parking Project\Car_Parking_Booking_System\Setup\ojdbc14.jar".
+_5. (Follow this step only if you want to run the GUI Version of the program)Double-Click on CLASSPATH and now click on the "New" button in the new dialog box and enter the path to the "rs2xml.jar" file in the "Setup" folder. For eg. "C:\Parking Project\Car_Parking_Booking_System\Setup\rs2xml.jar"._
+6. Now press "OK" close all the dialog boxes.
 
 ## Installation instructions:
 _NOTE: If you are not sure about how to follow the below steps, they are given as windows command prompt commands at the end of this Installation section so you can follow those._
@@ -51,7 +50,7 @@ _If you still find this difficult there is a batch file which you can run to com
 ### Open command prompt and enter the below commands sequentially:
 	cd..
 	cd..
-	cd <location to the setup folder>	::For example cd C:\Project\Parking Project\Car_Parking_Booking_System\Setup
+	cd <location to the setup folder>	::For example cd C:\Parking Project\Car_Parking_Booking_System\Setup
 	sqlplus / as SYSDBA			::If this asks for a password, enter the password earlier entered during the Oracle XE setup
 	@CreateDBUser.sql;
 	sqlplus javadev
