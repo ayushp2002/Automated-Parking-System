@@ -27,7 +27,7 @@ If not installed, please download and install it from the below link before star
 2. Click on the "Environment variables..." button on the bottom right of the open dialog.
 3. Click on the "New" button in the "System Variables" section in the bottom half of the second dialog screen.
 4. Enter the "Variable Name" as "CLASSPATH" and the "Variable Vaule" as the path to the "ojdbc14.jar" file in the "Setup" folder. For eg. "C:\Parking Project\Car_Parking_Booking_System\Setup\ojdbc14.jar".
-_5. (Follow this step only if you want to run the GUI Version of the program)Double-Click on CLASSPATH and now click on the "New" button in the new dialog box and enter the path to the "rs2xml.jar" file in the "Setup" folder. For eg. "C:\Parking Project\Car_Parking_Booking_System\Setup\rs2xml.jar"._
+5. _(Follow this step only if you want to run the GUI Version of the program)Double-Click on CLASSPATH and now click on the "New" button in the new dialog box and enter the path to the "rs2xml.jar" file in the "Setup" folder. For eg. "C:\Parking Project\Car_Parking_Booking_System\Setup\rs2xml.jar"._
 6. Now press "OK" close all the dialog boxes.
 
 ## Installation instructions:
