@@ -8,12 +8,12 @@ This README file contains all the instructions to install and use the applicatio
 
 ## Prerequisites:
 ### 1. Must have jdk-1.8.0 or above with the respective JRE installed on the system. 
- If not installed, download and install it from the oracle website or use this link given.
-https://www.oracle.com/in/java/technologies/javase/javase-jdk8-downloads.html
+If not installed, download and install it from the oracle website or use this link given.
+[Java SE Development Kit 8 Downloads](https://www.oracle.com/in/java/technologies/javase/javase-jdk8-downloads.html)
 
 ### 2. Must have Oracle SQL XE 11g installed on the system. 
 If not installed, please download and install it from the below link before starting with the program. You can follow the link below.
-https://www.youwindowsworld.com/en/downloads/database/oracle/oracle-database-express-edition-11g-release-2-windows-64-bit
+[Oracle Database Express Edition 11g Release 2 64-bit](https://www.youwindowsworld.com/en/downloads/database/oracle/oracle-database-express-edition-11g-release-2-windows-64-bit)
 
 ### 3. Must have PATH set for the JRE installed correctly. If not, follow the below steps.
 1. After the installation of JDK, go to Start menu and search for "Edit the System Environment Variables" and run it with administrator privileges.
