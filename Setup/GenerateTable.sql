@@ -29,3 +29,5 @@ INSERT ALL
 	INTO users VALUES ('ds712', 	'ds712pass', 	'Divyansh Sharma', '0147852369',	 	'divyashsharma@gmail.com')
 SELECT * FROM DUAL;
 */
+
+EXIT;
