@@ -49,22 +49,20 @@ _NOTE: If you are not sure about how to follow the below steps, they are given a
 _NOTE: Please ensure that you've completed all the Prerequisites before heading to this step._
 _If you still find this difficult there is a batch file which you can run to complete these commands easily. The instructions are given after this Commands section._
 ### Open command prompt and enter the below commands sequentially:
-	```batch
 	cd..
 	cd..
-        cd <location to the setup folder>	::For example cd C:\Project\Parking Project\Car_Parking_Booking_System\Setup
-        sqlplus / as SYSDBA			::If this asks for a password, enter the password earlier entered during the Oracle XE setup
-        @CreateDBUser.sql;
-        sqlplus javadev
+	cd <location to the setup folder>	::For example cd C:\Project\Parking Project\Car_Parking_Booking_System\Setup
+	sqlplus / as SYSDBA			::If this asks for a password, enter the password earlier entered during the Oracle XE setup
+	@CreateDBUser.sql;
+	sqlplus javadev
 	password				::Enter this when it prompts for password. NOTE: you will not be able to see characters as you type as they are hidden
-        @GenerateTable.sql;
+	@GenerateTable.sql;
 	javac GenerateParklot.java
 	java GenerateParklot
 	cd..
 	cd src
 	javac JParkingProj.java
 	java JParkingProj			::This will finally run the program
-        ```
 ##  Batch File execution:
 _NOTE: You will still have to enter some commands but lesser than the above._
 1. Go to the "./Setup" folder and run the "Run.bat". 
