@@ -1,0 +1,5 @@
+CREATE USER javadev IDENTIFIED BY password;
+
+GRANT ALL PRIVILEGES TO javadev;
+
+EXIT;
