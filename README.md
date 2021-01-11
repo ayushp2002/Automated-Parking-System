@@ -4,6 +4,15 @@
 # Author: Ayush Kumar
 ---------------------------------------------------------------------------------
 
+## Screenshots
+![Login Screen](https://i.imgur.com/EshHbLp.png)
+![Registration Screen](https://i.imgur.com/DY3LhWz.png)
+![Main Menu](https://i.imgur.com/z4WYy7z.png)
+![Booking a lot](https://i.imgur.com/QKbDaMK.png)
+![Checking out of a lot](https://i.imgur.com/99P0MQF.png)
+
+_**NOTE** The GUI Version is still full of bugs and glitches and I'm planning on fixing it. Feel free to collaborate._
+
 This README file contains all the instructions to install and use the application.
 
 ## Prerequisites:
