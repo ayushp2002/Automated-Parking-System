@@ -74,7 +74,7 @@ _If you still find this difficult there is a batch file which you can run to com
 ##  Batch File execution:
 _NOTE: You will still have to enter some commands but lesser than the above._
 1. Go to the "./Setup" folder and run the "Run.bat". 
- 1. Enter "`@CreateDBUser.sql`" when it first prompts as "SQL>".
- 2. Enter "`password`" when it second prompts as "Enter password:".
- 3. Enter "`@GenerateTable.sql`" when it third prompts  as "SQL>".
+ 1. Enter "`@CreateDBUser.sql`" when it first prompts as "`SQL>`".
+ 2. Enter "`password`" when it second prompts as "`Enter password:`".
+ 3. Enter "`@GenerateTable.sql`" when it third prompts  as "`SQL>`".
 _The program will automaticaly run after this._
